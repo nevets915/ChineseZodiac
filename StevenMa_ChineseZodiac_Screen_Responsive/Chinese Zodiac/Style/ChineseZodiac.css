@@ -1,0 +1,75 @@
+body{
+	font-family: arial, sans-serif;
+	font-size: 1.25em;
+	background: #ED2939;
+	color: #FFD700;
+}
+
+nav{
+	font-family: arial, sans-serif;
+	font-size: 1.25em;
+	background: #ED2939;
+	color: #FFD700;
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer{
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	background: #ED2939;
+	color: #FFD700;
+	text-align: center;
+}
+
+@media only screen and (max-width:640px){
+	.banner{
+		display: none;
+	}
+
+	.description{
+		margin: 0 auto;
+		text-align: center;
+		max-width: 100%;
+	}
+}
+
+@media only screen and (min-width:641px){
+	.mobile{
+		display:none;
+	}
+
+	.description{
+		margin: 0 auto;
+		text-align: center;
+		max-width: 90%;
+	}
+
+	.top{
+		display: none;
+	}
+}
+
+.mobile{
+	margin: 0 auto;
+	text-align: center;
+	max-width: 100%;
+}
+
+.top{
+	text-align: left;
+	font-weight: bold;
+}	
+
+form{
+	display: inline-block;
+    	text-align: left;
+	max-width: 100%;
+}
+
+.Six {
+	text-align: center;
+}
+.Twelve{
+	text-align: center;
+}
